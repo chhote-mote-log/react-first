@@ -1,0 +1,39 @@
+.side-qcontainer h3{
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.side-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.item-radio{
+    margin-bottom: 5px;
+}
+.item-radio label{
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.item-radio input{
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+    
+input[type=radio]{
+    appearance: none;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+input[type=radio]:checked{
+    background-color: blue;
+}
